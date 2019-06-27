@@ -1,0 +1,39 @@
+
+
+  1)     no of parameter in paper implementation:
+                        Total params: 28,919,626
+			Trainable params: 28,919,626
+			Non-trainable params: 0      
+
+         
+         no of parameter in modified model-c:
+                        Total params: 578,378
+			Trainable params: 577,098
+			Non-trainable params: 1,280
+
+
+2)    we can not directly use cifer-10 becuase:
+               
+         Their architecture said that their input size =224*224*3 and 1000 label/class which is mismatch with cifer-10
+
+
+3)  modified model strcuture:
+
+               Conv
+               Conv
+               pool
+
+               conv
+               conv
+               pool
+
+               conv
+               conv
+               pool
+              
+               FC
+               softmax
+
+ all other requirement like pooling,stride and padding and kernel size is same as mentioned in paper.
+
+   i got 96% accuracy using data augmentation.
