@@ -1,2 +1,22 @@
 # Deep-learning
-These are basic algo of mahine learning and deep learning
+These are basic algorithm implementation  of machine learning and deep-learning
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# :smile: Happy ~~Coding~~ Contributing :two_hearts::two_hearts::two_hearts::two_hearts::two_hearts::two_hearts::two_hearts:
